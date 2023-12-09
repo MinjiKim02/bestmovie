@@ -2,6 +2,8 @@
 import { useEffect, useState } from "react";
 import MovieCard from "./MovieCard";
 import './page.css';
+// import { Link } from "react-router-dom";
+import Link from "next/link";
 
 
 function App() {
@@ -45,7 +47,10 @@ function App() {
       <div className = "App">
           <div className = "search_nav">
               <div className="title">
-                  <h1>Movies</h1>
+                <h1>Best Movies</h1>
+                <Link href="/contact">
+                <h2>Contact Us</h2>
+                </Link>
               </div>
               <div>
                 <form onSubmit={handleSearch}>
