@@ -1,0 +1,53 @@
+*{
+    padding:0;
+    margin:0;
+}
+
+.Movies{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.App{
+    margin: 1.5rem;
+}
+
+.title{
+    padding-right: 3rem;
+}
+
+/* body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+.search_nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: #007bff;
+    color: black;
+}
+
+.search_nav h1 {
+    font-size: 24px;
+}
+
+.search_nav form {
+    display: flex;
+}
+
+.search_nav input {
+    padding: 8px;
+    margin-right: 5px;
+}
+
+.search_nav button {
+    padding: 8px 15px;
+    background-color: #0056b3;
+    color: white;
+    border: none;
+    cursor: pointer;
+} */
