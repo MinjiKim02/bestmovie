@@ -5,7 +5,6 @@ import './page.css';
 // import { Link } from "react-router-dom";
 import Link from "next/link";
 
-
 function App() {
 
   const API_URL = "https://api.themoviedb.org/3/movie/now_playing?api_key=12ca769b1759f4252deab89e8690074c"
@@ -49,10 +48,10 @@ function App() {
               <div className="title">
                 <h1>Best Movies</h1>
                 <Link href="/contact">
-                <h2>Contact Us</h2>
+                <h2 className="contact_link">Contact Us</h2>
                 </Link>
               </div>
-              <div>
+              <div className="search_box">
                 <form onSubmit={handleSearch}>
                   <input onChange={(e) => setTerm(e.target.value) } />
                   <button>Search</button>
